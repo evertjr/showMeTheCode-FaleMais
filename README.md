@@ -5,7 +5,7 @@
 ### Build instructions
 
 ```jsx
-git clone https://github.com/evertjr/showMeTheCode-FaleMais
+git clone https://github.com/evertjr/showMeTheCode-FaleMais falemais
 cd falemais
 yarn
 ```
