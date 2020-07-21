@@ -1,3 +1,7 @@
+# FaleMais
+
+![Screenshot](docs/images/screenshot.png)
+
 ### Build instructions
 
 ```jsx
