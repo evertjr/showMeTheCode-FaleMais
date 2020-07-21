@@ -11,12 +11,19 @@ export const Title = styled.h1`
 export const Container = styled.form`
    margin-top: 16px;
    display: flex;
-`;
+
+   @media(max-width: 800px) {
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+
+  }
+
+   `;
 
 export const Options = styled.div`
     background-color: #4B008F;
-    max-width: 300px;
-    min-width: 150px;
+    width: 300px;
     border-radius: 16px;
     display: flex;
     justify-content: space-between;
@@ -69,7 +76,7 @@ export const Options = styled.div`
 
 export const Card = styled.div`
   background-color: #fff;
-  margin-left: 8px;
+  margin: 0 8px;
   padding: 40px 8px;
   border-radius: 16px;
   width: 100%;
@@ -77,6 +84,11 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media(max-width: 800px) {
+    margin: 8px 0;
+    max-width: 300px;
+  }
 
   h1 {
     color: #4B008F;
